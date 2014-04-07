@@ -1,0 +1,238 @@
+html, body
+{
+  height: 100%
+}
+
+body
+{
+  margin: 0;
+  padding:0;
+  background-color: #927849;
+  font-family: 'Sofadi one',cursive;
+  font-size: 15px;
+  color: #745D34;
+}
+
+h1, h2
+{
+  margin:0;
+  padding:0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h2
+{
+  padding: 0 0 20px 0;
+  font-size: 1.5em;
+}
+
+p,ul
+{
+  margin-top:0;
+}
+
+p
+{
+  line-height:100%;
+}
+
+
+a
+{
+  color: #530415;
+}
+
+a:hover
+{
+  text-decoration:none; 
+}
+
+a img
+{
+  border:none;
+}
+
+img.alingnleft
+{
+ float: right;
+}
+
+#wrapper
+{
+  overflow: hidden; /*Si el contenido es mas grande ocultame el contenido que se salga*/
+  width:1200px;
+  background-color:#F7D358;
+  margin:50px auto;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0,2);
+}
+
+header
+{
+  background-color:#B43104;
+  overflow: hidden;
+  height: 150px;
+}
+
+#logo
+{
+  float: left;
+  width: 350px;
+  padding: 40px 0 0 50px;
+  text-transform: uppercase;
+}
+
+#logo h1
+{
+  padding:5px 10px 0 0;
+}
+
+#logo h1 a
+{
+  text-decoration: none;
+  font-size: 35px;
+  font-weight:300px;
+  color: #fff;
+}
+
+nav
+{
+  float: right;
+  width:700px;  
+  padding:30px 25px 0 0;
+}
+
+nav ul
+{
+  float: right;
+  list-style: none;
+}
+
+nav li
+{
+  float: left;
+}
+
+nav a
+{
+  display: block;
+  letter-spacing: 1px;
+  text-decoration:none;
+  text-transform: uppercase;
+  text-align: center
+  font-size: 14px;
+  font-weight: 300px;
+  color: #fff;
+  margin-left: 1px; 
+  padding: 7px 0 7px 30px; 
+}
+
+#main
+{
+  overflow: hidden;
+  width:1100px;
+  margin: 0 50px;
+  padding: 50px 0;
+  border-bottom: 1px solid #745D34;
+}
+
+#principal
+{
+  overflow: hidden;
+  width:1100px;
+  margin: 0 50px;
+  padding: 50px 0;
+  border-bottom: 1px solid #745D34;
+  text-align:center;
+}
+
+#main table:first-child 
+{
+  border-collapse:collapse;
+  
+}
+
+#main table:nth-child(2) 
+{
+  border-collapse:collapse;
+  margin-top:20px;
+}
+
+
+#main td, th
+{
+  padding:5px;
+  border:1px solid #65020A;
+  color:#65020A;
+}
+
+#content 
+{
+  float: left;
+  width: 750px;
+}
+
+aside
+{
+  float: right;
+  width: 300px;
+}
+
+aside h3 
+{
+  font-size: 1.1em;
+  font-weight:300px;
+}
+
+
+#second
+{
+  overflow: hidden;
+  margin: 0 50px;
+  padding: 50px 0; /*relleno*/
+}
+
+#second #one
+{
+ float:left;
+ width: 350px;
+ margin-right: 50px;
+}
+
+#second #two
+{
+  float: left;
+  width: 300px;
+  
+}
+
+#second #three
+{
+  float: right;
+  width: 350px;
+}
+
+#second #three a
+{
+  text-decoration:none;
+}
+
+footer
+{
+  border-top: 1px dashed #745D34;
+  overflow: hidden;
+  margin: 0 50px;
+  padding: 30px 0;
+}
+
+footer p
+{
+  text-align:center;
+  
+}
+
+footer a
+{
+  color: #000;
+  text-decoration:none;
+}
